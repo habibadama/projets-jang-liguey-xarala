@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      ::before, ::after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px 0;
+      }
+     .grid-container{
+       /* border: 1px solid #333; */
+       height: auto;
+       width: 80%;
+       max-width: 1300px;
+       margin: 30px auto;
+       display: grid;
+       grid-template-columns: repeat(auto-fill, 200px);
+       grid-gap: 10px;
+       justify-content: center;
+     }
+    .grid-item{
+        background-color: #333;
+        width: 200px;
+        height: 200px;
+    }
+    </style>
+</head>
+<body>
+  <h1>Une grille avec CSS Grid !</h1>
+    <div class="grid-container">
+
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>    
+
+    </div>
+       
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    text-decoration: none;
+    color: #F30C20;
+    font-size: 24px;
+    font-weight: 700;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #F30C20;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    /* background-color: aqua; */
+}
+header form{
+    max-width: 400px;
+    width: 60%;
+    margin-left: -140px;
+}
+header form input{
+    padding: 10px 40px 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    width: 100%;
+    position: relative;
+    border: 1px solid #878787;
+    transition: border .4s linear;
+}
+header form input:focus{
+    border: 1px solid #F30C20;
+}
+header form i{
+    position: absolute;
+    transform: translate(-34px, 9px);
+    font-size: 20px;
+    font-weight: 100;
+    color: #F30C20;
+    z-index: 99;
+    cursor: pointer;
+}
+.ul-01{
+   list-style: none;
+   margin-right: -200px;
+}
+.ul-01 li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.ul-01 li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #878787;
+    font-weight: 400;
+}
+.ul-01 li .fa-cart-shopping{
+    color: #F30C20;
+    font-size: 18px;
+}
+
+nav{
+    background-color: #FEF3F4;
+    margin: auto;
+    padding: 12px 100px;
+    width: 100x;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #878787;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #F30C20;
+}
+#banner-img{
+    min-height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+#banner-img{
+    text-align: center;
+    font-size: 70px;
+    color: #FFF;
+    padding-top: 170px;
+    margin: 0 100px;
+}

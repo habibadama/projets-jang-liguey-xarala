@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du HTML</title>
+
+    <style>
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        /* .paire{
+            background-color: blue;
+        }
+        .impaire{
+            background-color: orange;
+        } */
+        tr:nth-child(even){
+            background-color: blue;
+        }
+        tr:nth-child(odd){
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les tableaux</h1>
+    <table>
+        <tr class="impaire">
+            <td>Nom</td>
+            <td>Prénom</td>
+            <td>Age</td>
+        </tr>
+        <tr class="paire">
+            <td>Giraud</td>
+            <td>Pierre</td>
+            <td>25</td>
+        </tr>
+        <tr class="impaire">
+            <td>Joly</td>
+            <td>Poline</td>
+            <td>24</td>
+        </tr>
+    </table>
+</body>
+</html>

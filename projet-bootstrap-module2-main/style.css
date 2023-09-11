@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    z-index: 1000;
+}
+
+nav .nav-item {
+    margin-right: 40px;
+}
+
+#banner {
+    background-image: url(images/digital-banking3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+#banner h1 {
+    max-width: 700px;
+}
+
+#banner p {
+    max-width: 600px;
+}
+
+
+/* Section services */
+
+#services {
+    background-color: #f3f4f6;
+}
+
+.why_choice p {
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+
+/* Section articles */
+
+#articles {
+    background-color: #fafafa;
+}
+
+small {
+    font-size: 10px;
+    color: #797474;
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none;
+    line-height: 32px;
+    display: inline-block;
+}
+
+.card-title a:hover {
+    color: blue;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #566573;
+}
+
+
+/* Footer */
+
+footer {}
+
+footer .icons a {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+footer .ul-right {
+    margin-left: 100px;
+}

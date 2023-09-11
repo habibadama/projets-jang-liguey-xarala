@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du HTML</title>
+
+    <style>
+        ::after,::before{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            min-width: 400px;
+            width: auto;
+            box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+            /* border: 2px solid midnightblue; */
+            border: 1px solid #ddd;
+            margin: 100px auto;
+        }
+        thead tr{
+            background-color: midnightblue;
+            text-align: left;
+            color: #fff;
+        }
+        th, td{
+            padding: 15px 20px;
+        }
+        tbody tr, td, th{
+            border: 1px solid #ddd;
+        }
+        tbody tr:nth-child(even){
+            background-color: #f3f3f3;
+        }
+      tbody tr:last-of-type{
+        border-bottom: 2px solid midnightblue;
+      }
+    </style>
+</head>
+<body>
+    <!-- <h1>Tableau stylé</h1> -->
+    <table>
+        <thead>
+            <tr>
+                <th>Titre 1</th>
+                <th>Titre 2</th>
+                <th>Titre 3</th>
+                <th>Titre 4</th>
+                <th>Titre 5</th>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+        </tr>
+        <tr>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+        </tr>
+        <tr>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+        </tr>
+        <tr>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+        </tr>
+        <tr>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+            <td>Contenu</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+</html>

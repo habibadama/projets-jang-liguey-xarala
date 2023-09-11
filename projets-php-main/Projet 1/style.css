@@ -1,0 +1,29 @@
+body {
+    background-color: aliceblue;
+    /* height: 100vh; */
+}
+
+form {
+    background-color: white;
+    padding: 10px 30px;
+    max-width: 550px;
+    margin: 50px auto;
+    box-shadow: 0 35px 50px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
